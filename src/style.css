@@ -1,0 +1,42 @@
+/* Style for the container div */
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style for the spans */
+span {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the labels */
+label {
+  margin-right: 10px;
+}
+
+/* Style for the inputs */
+input {
+  width: 50px;
+}
+
+/* Style for the result div */
+#result {
+  margin-bottom: 20px;
+}
+
+/* Style for the calculate button */
+#calculate {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#calculate:hover {
+  background-color: #0056b3;
+}
