@@ -34,6 +34,8 @@ calculate.addEventListener('click', () => {
     const resultValue = calculerHeure(luneValue, terreValue, soleilValue)
     result.innerText = resultValue
   } catch (e) {
-    result.innerText = e.message
+    if (e instanceof Error){
+      result.innerText = e.message
+    }
   }
 })
